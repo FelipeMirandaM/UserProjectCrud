@@ -45,11 +45,8 @@ public class JWTServicesImpl implements IJWTService {
 
     public boolean isTokenValid(String token, UserEntity userResponseDTO){
         final UUID UUID = java.util.UUID.fromString(extracUUID(token));
-        System.out.println(userResponseDTO.getUserId() == UUID);
 
-        System.out.println( isTokenExpired());
-
-        return userResponseDTO.getUserId() == UUID && isTokenExpired();
+        return userResponseDTO.getUserId().equals(UUID) && isTokenExpired();
     }
 
     private boolean isTokenExpired() {
