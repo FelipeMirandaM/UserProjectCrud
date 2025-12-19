@@ -14,3 +14,8 @@ Proyecto Spring boot que permite administrar una tabla de usuarios con telefonos
 4. El servidor se iniciará en `http://localhost:8080`.
 5. Para consumir un servicio primero se debe generar un token utilizando el servicio `/api/v1/token` y luego entregar el token generado como Bearer token a los otros servicios de la API. 
 6. Para acceder a la documentación Swagger, ir a `http://localhost:8080/swagger-ui/index.html`.
+
+
+
+## Diagrama solucion
+<img width="571" height="701" alt="Diagrama sin título drawio (3)" src="https://github.com/user-attachments/assets/cbd5f4c3-fb8f-4332-8739-f60da77bf283" />
