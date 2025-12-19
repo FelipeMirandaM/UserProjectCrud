@@ -1,6 +1,6 @@
 # UserProjectCrud
 
-Proyecto Spring Boot que utiliza una base de datos H2 en memoria con data precargada y expone la documentación Swagger.
+Proyecto Spring boot que permite administrar una tabla de usuarios con telefonos, contiene data precargada en H2 y cuenta con documentación Swagger que se actualiza de forma semi automatica.
 
 ## Requisitos
 1. JDK 11 o superior instalado.
