@@ -7,7 +7,7 @@ Proyecto Spring Boot que utiliza una base de datos H2 en memoria con data precar
 2. Git.
 3. (Opcional) IntelliJ IDEA 2025.1 para abrir y ejecutar el proyecto.
 
-## Descarga
+## Como ejecutar el proyecto
 1. Clonar el repositorio
 2. Abrir desde IDE, en este caso IntelliJ IDEA 2025.1
 3. Ejecutar UserCrudApplication.java como una aplicación Java.
